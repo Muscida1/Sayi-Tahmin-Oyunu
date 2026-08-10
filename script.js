@@ -72,7 +72,7 @@ else {
     for(let hak = 1; hak <= 10; hak++) {
         let tahmin = Number(prompt("1 ile 100 arasında bir sayı tahmin et. \nKullanılan hak:" + hak + "/10"));
 
-        if(tahmin = gizliSayi) {
+        if(tahmin == gizliSayi) {
             alert("Tebrikler! Son bölümü de tamamladın! Kahin falanmısın?");
             console.log("Doğru tahmin: " + tahmin);
             console.log("Kullanılan tahmin hakkı: " + hak);
@@ -90,7 +90,7 @@ else {
         }
     }
 
-    if(tahminEdildiMi = false) {
+    if(tahminEdildiMi == false) {
         alert("Tahmin hakkın bitti. gizli sayı: " + gizliSayi)
     }
 }
